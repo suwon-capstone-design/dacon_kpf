@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
-from data_loader import DataLoader
-from analyzer import AnalysisEngine
-from ui_components import DashboardUI
+from app.data_loader import DataLoader
+from app.analyzer import AnalysisEngine
+from app.ui_components import DashboardUI
 
 st.set_page_config(page_title="신문과방송 독자 데이터 분석 솔루션", layout="wide")
 

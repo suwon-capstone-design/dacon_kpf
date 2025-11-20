@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 from wordcloud import WordCloud
-from utils import FontManager
+from app.utils import FontManager
 
 
 class DashboardUI:
